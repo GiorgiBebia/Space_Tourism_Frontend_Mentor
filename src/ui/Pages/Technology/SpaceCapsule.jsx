@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function SpaceCapsule() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/technology/background-technology-desktop.jpg')] tablet:bg-[url('/img/technology/background-technology-tablet.jpg')] mobile:bg-[url('/img/technology/background-technology-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/technology/background-technology-desktop.jpg')] tablet:bg-[url('/img/technology/background-technology-tablet.jpg')] mobile:bg-[url('/img/technology/background-technology-mobile.jpg')] bg-no-repeat bg-cover bg-center overflow-hidden">
       <Header page="technology" />
       <SpaceCapsuleMain />
     </div>
