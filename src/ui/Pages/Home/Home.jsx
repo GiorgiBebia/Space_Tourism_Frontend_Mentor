@@ -2,7 +2,7 @@ import { Header } from "../../Header";
 
 function Home() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] w-full h-[1024px] bg-[url('img/home/background-home-desktop.jpg')] tablet:bg-[url('img/home/background-home-tablet.jpg')] mobile:bg-[url('img/home/background-home-mobile.jpg')] bg-no-repeat bg-cover bg-center">
+    <div className="max-w-[1440px] tablet:max-w-[768px] w-full h-[1024px] bg-[url('/img/home/background-home-desktop.jpg')] tablet:bg-[url('/img/home/background-home-tablet.jpg')] mobile:bg-[url('/img/home/background-home-mobile.jpg')] bg-no-repeat bg-cover bg-center">
       <Header page="home" />
       <HomeMain />
     </div>

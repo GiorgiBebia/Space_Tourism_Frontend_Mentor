@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function Moon() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('img/destination/background-destination-desktop.jpg')] tablet:bg-[url('img/destination/background-destination-tablet.jpg')] mobile:bg-[url('img/destination/background-destination-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/destination/background-destination-desktop.jpg')] tablet:bg-[url('/img/destination/background-destination-tablet.jpg')] mobile:bg-[url('/img/destination/background-destination-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="destination" />
       <MoonMain />
     </div>
@@ -26,7 +26,7 @@ function MoonMain() {
       <div className="w-[1110px] tablet:w-[768px] mobile:w-[327px] flex justify-between mt-[157px] tablet:mt-[66px] mobile:mt-[50.5px] tablet:flex-col tablet:items-center mobile:mx-auto">
         <img
           className="w-[480px] tablet:w-[300px] mobile:w-[150px] h-[480px] tablet:h-[300px] mobile:h-[150px]"
-          src="/img/destination/image-moon.png"
+          src="img/destination/image-moon.png"
           alt=""
         />
         <div className="w-[445px] mobile:w-[327px] h-[468px] mobile:h-[466px] tablet:mt-[74px] mobile:mt-[58.5px] tablet:flex tablet:flex-col tablet:items-center">

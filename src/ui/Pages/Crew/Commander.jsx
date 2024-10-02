@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function Commander() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('img/crew/background-crew-desktop.jpg')] tablet:bg-[url('img/crew/background-crew-tablet.jpg')] mobile:bg-[url('img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/crew/background-crew-desktop.jpg')] tablet:bg-[url('/img/crew/background-crew-tablet.jpg')] mobile:bg-[url('/img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="crew" />
       <CommanderMain />
     </div>
@@ -56,7 +56,7 @@ function CommanderMain() {
 
         <img
           className="w-[539px] tablet:w-[380px] mobile:w-[271px] h-[676px] tablet:h-[517px] mobile:h-[365px] tablet:mt-[32px]"
-          src="/img/crew/image-douglas-hurley.png"
+          src="img/crew/image-douglas-hurley.png"
           alt=""
         />
       </div>

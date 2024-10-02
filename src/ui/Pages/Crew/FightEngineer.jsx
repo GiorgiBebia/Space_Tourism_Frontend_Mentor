@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function FightEngineer() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('img/crew/background-crew-desktop.jpg')] tablet:bg-[url('img/crew/background-crew-tablet.jpg')] mobile:bg-[url('img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/crew/background-crew-desktop.jpg')] tablet:bg-[url('/img/crew/background-crew-tablet.jpg')] mobile:bg-[url('/img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="crew" />
       <FightEngineerMain />
     </div>
@@ -57,7 +57,7 @@ function FightEngineerMain() {
 
         <img
           className="w-[539px] tablet:w-[380px] mobile:w-[310px] h-[676px] tablet:h-[517px] mobile:h-[330px] tablet:mt-[32px] mobile:mt-[60px]"
-          src="/img/crew/image-anousheh-ansari.png"
+          src="img/crew/image-anousheh-ansari.png"
           alt=""
         />
       </div>

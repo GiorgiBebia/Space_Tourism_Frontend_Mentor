@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function LaunchVehicle() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('img/technology/background-technology-desktop.jpg')] tablet:bg-[url('img/technology/background-technology-tablet.jpg')] mobile:bg-[url('img/technology/background-technology-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/technology/background-technology-desktop.jpg')] tablet:bg-[url('/img/technology/background-technology-tablet.jpg')] mobile:bg-[url('/img/technology/background-technology-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="technology" />
       <LaunchVehicleMain />
     </div>
@@ -25,12 +25,12 @@ function LaunchVehicleMain() {
       </div>
       <img
         className="hidden tablet:block w-[768px] h-[357px] mt-[88px] mobile:hidden"
-        src="/img/technology/image-launch-vehicle-landscape.jpg"
+        src="img/technology/image-launch-vehicle-landscape.jpg"
         alt=""
       />
       <img
         className="hidden mobile:block w-[375px] h-[258px] mt-[88px]"
-        src="/img/technology/image-launch-vehicle-portrait.jpg"
+        src="img/technology/image-launch-vehicle-portrait.jpg"
         alt=""
       />
       <div className="w-[1275px] tablet:w-[512px] mobile:w-[327px] h-[734px] tablet:h-[347px] mobile:h-[323px] flex justify-between mt-[24px] gap-[32px] tablet:flex-col tablet:mx-auto">
@@ -76,7 +76,7 @@ function LaunchVehicleMain() {
         </div>
         <img
           className="w-[608px] h-[600px] mt-[67px] tablet:hidden"
-          src="/img/technology/image-launch-vehicle-portrait.jpg"
+          src="img/technology/image-launch-vehicle-portrait.jpg"
           alt=""
         />
       </div>

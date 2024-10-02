@@ -3,7 +3,7 @@ import { Header } from "../../Header";
 
 function Pilot() {
   return (
-    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('img/crew/background-crew-desktop.jpg')] tablet:bg-[url('img/crew/background-crew-tablet.jpg')] mobile:bg-[url('img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
+    <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/crew/background-crew-desktop.jpg')] tablet:bg-[url('/img/crew/background-crew-tablet.jpg')] mobile:bg-[url('/img/crew/background-crew-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="crew" />
       <PilotMain />
     </div>
@@ -57,7 +57,7 @@ function PilotMain() {
 
         <img
           className="w-[539px] tablet:w-[435px] mobile:w-[300px] h-[676px] tablet:h-[517px] mobile:h-[365px] tablet:mt-[50px]"
-          src="/img/crew/image-victor-glover.png"
+          src="img/crew/image-victor-glover.png"
           alt=""
         />
       </div>
