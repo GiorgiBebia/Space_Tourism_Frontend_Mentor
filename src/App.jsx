@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./ui/Pages/Home/Home";
 import Moon from "./ui/Pages/Destination/Moon";
 import Mars from "./ui/Pages/Destination/Mars";
@@ -15,7 +15,7 @@ import SpaceCapsule from "./ui/Pages/Technology/SpaceCapsule";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destination/moon" element={<Moon />} />
@@ -33,7 +33,7 @@ function App() {
           <Route path="/technology/spaceport" element={<Spaceport />} />
           <Route path="/technology/spacecapsule" element={<SpaceCapsule />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
