@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import { Header } from "../../Header";
+import { useEffect } from "react";
 
 function Mars() {
+  useEffect(function () {
+    document.title = `Mars | Space Tourism | Frontend Mentor`;
+  }, []);
+
   return (
     <div className="max-w-[1440px] tablet:max-w-[768px] mobile:w-[375px] w-full min-h-screen bg-[url('/img/destination/background-destination-desktop.jpg')] tablet:bg-[url('/img/destination/background-destination-tablet.jpg')] mobile:bg-[url('/img/destination/background-destination-mobile.jpg')] bg-no-repeat bg-cover bg-center tablet:overflow-hidden">
       <Header page="destination" />
